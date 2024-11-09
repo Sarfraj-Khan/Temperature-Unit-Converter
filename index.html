@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Temperature Converter</h1>
+      <input
+        type="number"
+        id="inputBox"
+        placeholder="Enter the Temperature"
+        value="0"
+      />
+      <h2 id="result">Select a unit</h2>
+      <div id="radiobox">
+        <div class="radio">
+          <input type="radio" id="Fahrenheit-Celsius" name="unit" />
+          <label for="Fahrenheit-Celsius">Fahrenheit-Celsius</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="Celsius-Fahrenheit" name="unit" />
+          <label for="Celsius-Fahrenheit">Celsius-Fahrenheit</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="Celsius-Kelvin" name="unit" />
+          <label for="Celsius-Kelvin">Celsius-Kelvin</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="Kelvin-Celsius" name="unit" />
+          <label for="Kelvin-Celsius">Kelvin-Celsius</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="Kelvin-Fahrenheit" name="unit" />
+          <label for="Kelvin-Fahrenheit">Kelvin-Fahrenheit</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="Fahrenheit-Kelvin" name="unit" />
+          <label for="Fahrenheit-Kelvin">Fahrenheit-Kelvin</label>
+        </div>
+      </div>
+      <button id="btn" type="button">Convert</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

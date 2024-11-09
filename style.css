@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: url(thermometer-4767445.jpg) no-repeat center center / cover;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 10px;
+  /* background-color: rgba(205, 115, 70, 0.691); */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    to right,
+    #ff0000b1,
+    #ffff00af,
+    #00ff00ac,
+    #00ffffb0,
+    #0000ffa0
+  );
+}
+h1 {
+  font-size: 2rem;
+}
+#inputBox {
+  font-size: 1.5rem;
+  width: 70%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  text-align: right;
+}
+::placeholder {
+  font-size: 1rem;
+  text-align: center;
+}
+#radiobox {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.radio {
+  margin: 5px;
+  padding: 3px;
+}
+label {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+label:hover {
+  cursor: pointer;
+}
+input[type="radio"] {
+  cursor: pointer;
+}
+#btn {
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  /* background-color: cornflowerblue; */
+  background: linear-gradient(
+    to right,
+    #ff0000b1,
+    #ffff00af,
+    #00ff00ac,
+    #00ffffb0,
+    #0000ffa0
+  );
+  margin: 6px;
+}
+#btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    #0000ffa0,
+    #00ffffb0,
+    #00ff00ac,
+    #ffff00af,
+    #ff0000b1
+  );
+  font-weight: bold;
+}
+#result {
+  margin-top: 15px;
+  font-size: 22px;
+  background-color: antiquewhite;
+  border-radius: 3px;
+  padding: 4px;
+}
